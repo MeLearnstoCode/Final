@@ -1,9 +1,15 @@
 
+body{
+  background-image: ''
+}
+
 /*Navbar styling*/
 
 nav{
   font-family: 'remagg_cz'
 }
+
+/*rest of body*/
 
 .overlay {
     font-family: 'remagg_cz';
@@ -39,4 +45,16 @@ nav{
 
 #exper{
   display:hidden;
+}
+
+#title{
+  color:black;
+  text-decoration: none;
+}
+
+#title:hover{
+  text-decoration: none;
+  color: green;
+
+
 }

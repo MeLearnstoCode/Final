@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.image').click(function(){
+	$('#title').click(function(){
 
 		$('.overlay').slideDown('slow');
 
@@ -12,3 +12,9 @@ $(document).ready(function(){
 		});
 
 	});
+
+
+$(document).ready(function(){
+
+});
+
