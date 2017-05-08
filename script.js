@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.image').hover(function(){
+	$('.image').click(function(){
 
 		$('.overlay').slideDown('slow');
 
