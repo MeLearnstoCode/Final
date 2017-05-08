@@ -5,12 +5,38 @@ nav{
   font-family: 'remagg_cz'
 }
 
+.overlay {
+    font-family: 'remagg_cz';
+    position: fixed;
+    top: 8%;
+    background-color: rgba(128, 128, 128, .9);
+    z-index: 100000;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    display: none;
+    text-align: center;
+    
+}
+
+#overlaytext{
+	line-height: 90vh;
+}
+
+
 
 .jumbotron{
   font-family: 'remagg_cz';
   background-color: transparent;
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: center;
 
 }
 
+#HowTo{
+  margin-top: 0px;
+}
+
+#exper{
+  display:hidden;
+}
