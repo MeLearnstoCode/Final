@@ -58,3 +58,10 @@ nav{
 
 
 }
+/*media query*/
+
+@media screen and (min-width: 480px) {
+    #demo{
+        display: hidden;
+    }
+}
