@@ -44,8 +44,9 @@ $(function(){
    });
 });
 
+
 $(function(){
-   $('.row').on('focus mouseenter', function(){
+   $('.row').click(function(){
     $("h3").css("backgroundColor", "rgba(128,128,128,.5)");
    });
 });
