@@ -1,17 +1,40 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 	
-	$('#title').click(function(){
+// 	$('#title').click(function(){
 
-		$('.overlay').slideDown('slow');
+// 		$('.overlay').slideDown('slow');
 
-	});
+// 	});
 
-		$('.overlay').click(function(){
-			$('.overlay').slideUp('fast');
+// 		$('.overlay').click(function(){
+// 			$('.overlay').slideUp('fast');
 
-		});
+// 		});
 
-	});
+// 	});
+
+
+$(document).ready(function(){
+  
+  $('#title').click(function(){
+
+    $('.overlay').slideDown('slow', function(){
+      $('.overlay').css({
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent:'center'
+      })
+    });
+
+  });
+
+    $('.overlay').click(function(){
+      $('.overlay').slideUp('fast');
+
+    });
+
+  });
+
 
 
 $(function(){
