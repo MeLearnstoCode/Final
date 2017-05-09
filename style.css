@@ -1,18 +1,17 @@
-
-body{
-  background-image: ''
-}
-
 /*Navbar styling*/
 
 nav{
-  font-family: 'remagg_cz'
+  font-family: 'remagg_cz';
+  font-weight: bold;
 }
 
 /*rest of body*/
 
+
+
 .overlay {
     font-family: 'remagg_cz';
+    font-weight: bold;
     position: fixed;
     top: 8%;
     background-color: rgba(128, 128, 128, .9);
@@ -33,19 +32,20 @@ nav{
 
 .jumbotron{
   font-family: 'remagg_cz';
+  font-weight: bold;
   background-color: transparent;
   margin-top: 20px;
   text-align: center;
 
 }
 
-#HowTo{
+/*#HowTo{
   margin-top: 0px;
 }
 
 #exper{
   display:hidden;
-}
+}*/
 
 #title{
   color:black;
