@@ -1,7 +1,7 @@
 /*Navbar styling*/
 
 nav{
-  font-family: 'remagg_cz';
+  font-family: 'Lobster';
   font-weight: bold;
 }
 
@@ -10,7 +10,7 @@ nav{
 
 
 .overlay {
-    font-family: 'remagg_cz';
+    font-family: 'Lobster';
     font-weight: bold;
     position: fixed;
     top: 8%;
@@ -33,7 +33,7 @@ nav{
 
 
 .jumbotron{
-  font-family: 'remagg_cz';
+  font-family: 'Lobster';
   font-weight: bold;
   background-color: transparent;
   margin-top: 20px;
@@ -41,13 +41,6 @@ nav{
 
 }
 
-/*#HowTo{
-  margin-top: 0px;
-}
-
-#exper{
-  display:hidden;
-}*/
 
 #title{
   color:black;

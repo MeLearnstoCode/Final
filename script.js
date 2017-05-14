@@ -1,19 +1,4 @@
-// $(document).ready(function(){
-	
-// 	$('#title').click(function(){
-
-// 		$('.overlay').slideDown('slow');
-
-// 	});
-
-// 		$('.overlay').click(function(){
-// 			$('.overlay').slideUp('fast');
-
-// 		});
-
-// 	});
-
-
+ 
 $(document).ready(function(){
   
   $('#title').click(function(){
@@ -34,6 +19,14 @@ $(document).ready(function(){
     });
 
   });
+
+ $(document).ready(function(){
+   $('.row').click(function(){
+    $("h3").css("backgroundColor", "rgba(128,128,128,.5)");
+    $("h3").css("color", "blue");
+   });
+ });
+
 
 
 
@@ -68,10 +61,18 @@ $(function(){
 });
 
 
-$(function(){
+
+   $(document).ready(function(){
    $('.row').click(function(){
-    $("h3").css("backgroundColor", "rgba(128,128,128,.5)");
+    // $("h3").css("backgroundColor", "rgba(128,128,128,.5)");
+    $("h3").css("color", "blue");
    });
-});
+ });
+
+
+
+
+
+
 
 	
